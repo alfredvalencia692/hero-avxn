@@ -1,0 +1,59 @@
+{
+  "quarantine_dir": "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/quarantine",
+  "log_file": "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/kali_sage_termux_av.log",
+  "log_max_bytes": 10485760,
+  "log_backup_count": 3,
+  "default_scan_dirs": [
+    "/data/data/com.termux/files/home/storage/shared",
+    "/data/data/com.termux/files/home/downloads",
+    "/data/data/com.termux/files/home"
+  ],
+  "scan_exceptions": [
+    "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/kali_sage_termux_av.log",
+    "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/.env",
+    "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/config.json",
+    "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/kali_sage_fim_db.pkl",
+    "/data/data/com.termux/files/home/.termux",
+    "/data/data/com.termux/files/home/etc/hosts"
+  ],
+  "local_malware_hashes_file": "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/malware_hashes.txt",
+  "whitelist_hashes_file": "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av/whitelist_hashes.txt",
+  "max_file_size_mb": 32,
+  "default_scan_file_types": [
+    "apk",
+    "sh",
+    "py",
+    "zip",
+    "tar",
+    "gz",
+    "rar",
+    "exe",
+    "pdf",
+    "doc",
+    "docx",
+    "xls",
+    "xlsx",
+    "ppt",
+    "pptx"
+  ],
+  "default_hosts_blacklist_url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+  "default_vpn_config_dir": "/storage/6BF7-FF88/Android/data/com.termux/files/termux_distro/hero_av",
+  "hosts_feed_max_bytes": 5242880,
+  "vpn_monitor_interval": 8,
+  "vpn_reconnect_delay": 5,
+  "vpn_rotate_on_fail": true,
+  "vpn_autostart": false,
+  "kill_switch_requires_root": true,
+  "threat_feeds": [
+    {
+      "name": "MalwareBazaar",
+      "url": "https://bazaar.abuse.ch/export/txt/sha256/recent/",
+      "enabled": true
+    },
+    {
+      "name": "URLhaus",
+      "url": "https://urlhaus.abuse.ch/downloads/text/",
+      "enabled": true
+    }
+  ]
+}
